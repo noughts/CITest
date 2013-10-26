@@ -26,9 +26,12 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
+- (void)testExample{
     XCTAssertEqual(1, 1);
+}
+
+-(void)testAdd{
+	XCTAssertEqual(1+1, 2 );
 }
 
 @end
